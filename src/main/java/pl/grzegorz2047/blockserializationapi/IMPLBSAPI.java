@@ -15,23 +15,28 @@ import org.bukkit.block.Block;
  * @author Grzegorz
  */
 public class IMPLBSAPI implements BSAPI{
+
+    @Override
+    public void addBlock(Block b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Block getBlock(Location l) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public List<Block> getBlocks() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void removeBlocks() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     //id to unikalny klucz do pobierania odpowiednich danych danego pluginu
     //Jeszcze musze przemyslec gdzie bedzie kod od serializacji i deserializacji blokow
-    public void addBlock(String id, Block b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public Block getBlock(String id, Location l) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public List<Block> getBlocks(String id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void removeBlocks(String id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     
 }

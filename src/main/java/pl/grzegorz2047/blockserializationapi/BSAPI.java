@@ -19,31 +19,25 @@ public interface BSAPI {
     
     /**
      *
-     * @param id
      * @param b
      */
-    @Nonnull void addBlock(String id,Block b);
+    @Nonnull void addBlock(@Nonnull Block b);
     
     /**
      *
-     * @param id
      * @param l
      * @return
      */
-    @Nonnull Block getBlock(String id,Location l);
+    @Nonnull Block getBlock(@Nonnull Location l);
     
     /**
      *
-     * @param id
      * @return
      */
-    @Nonnull List<Block> getBlocks(String id);
+    @Nonnull List<Block> getBlocks();
     
-    /**
-     *
-     * @param id
-     */
-    @Nonnull void removeBlocks(String id);
+
+    @Nonnull void removeBlocks();
     
     
     

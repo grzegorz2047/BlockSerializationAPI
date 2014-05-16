@@ -19,6 +19,8 @@ public class BlockSerialization extends JavaPlugin{
     @Override
     public void onEnable() {
         System.out.println(this.getName()+" zostal wlaczony!");
+        BSAPI bsapi = new IMPLBSAPI();
+        
     }
 
     @Override
