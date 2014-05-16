@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package pl.grzegorz2047.blockserializationtest;
+package pl.grzegorz2047.blockserializationapi;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

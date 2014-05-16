@@ -7,7 +7,7 @@
   <version>BUILD</version>
   <packaging>jar</packaging>
 
-  <name>BlockSerializationTest</name>
+  <name>BlockSerializationAPI</name>
   <url>http://maven.apache.org</url>
 
   <properties>
